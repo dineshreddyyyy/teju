@@ -1,0 +1,39 @@
+
+body{
+    background-color:mediumblue;
+
+}
+h1{
+    color:red;
+}
+div{
+    color:black;
+}
+
+input[type=text],select
+{
+    width: 60%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border-radius: 4px;
+    border: 1px solid #000;
+    box-sizing: border-box;
+    
+}
+input[type="button"]{
+    width: 60%;
+    background-color: red;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    
+}
+.required::after{
+    content: "*";
+    color: red;
+    font-size: 20px;
+}
